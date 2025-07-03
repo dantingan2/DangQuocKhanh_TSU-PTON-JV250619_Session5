@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HW</title>
+  <style>
+    /* Khung trắng bên ngoài */
+    .outer-box {
+      padding: 20px;
+      background-color: white;
+      display: inline-block;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Ô bên trong */
+    .box {
+      width: 200px;
+      height: 100px;
+      background-color: #696969;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .box:hover {
+      background-color: #3498db;
+      cursor: pointer;
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-box">
+    <div class="box">
+      Change Color
+    </div>
+  </div>
+</body>
+</html>
